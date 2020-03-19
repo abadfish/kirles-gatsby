@@ -1,0 +1,123 @@
+body {
+  margin: 0 !important;
+}
+
+/* HOME PAGE VIDEO BACKGROUND */
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vid-bg-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.fullscreen-bg__video {
+  top: 100%;
+  left: 100%;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-0%, -0%);
+     -moz-transform: translate(-0%, -0%);
+      -ms-transform: translate(-0%, -0%);
+    transform: translate(-0%, -0%);
+}
+
+.image-div {
+  margin-top: 4rem;
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: auto;
+  z-index: 10;
+  /* background-color: gray; */
+  /* transition: opacity .4s; */
+}
+
+.slide-container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  /* display: flex; */
+  align-items: center;
+}
+.each-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.background-image-holder {
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #292929;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 0;
+}
+.background-image-holder.fadeIn {
+  opacity: 1;
+}
+
+@media all and (max-width: 767px) {
+  .parallax > .background-image-holder,
+  .parallax .slides li > .background-image-holder {
+    top: 0 !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+  }
+}
+
+
+/* INDEX2 */
+.image-1 {
+  background-image: url('../assets/IMG_0457.jpeg');
+  /* background-image: url('../assets/IMG_0211.png'); */
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* -webkit-animation: fadeOut 3s forwards;
+  animation: fadeOut 3s forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; */
+  /* opacity: 0; */
+}
+
+/* .image-1.load {
+  opacity: 1;
+} */
+.image-an-enter {
+  opacity: 0;
+  transform: scale(0.5);
+}
+.image-an-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 3000ms, transform 9000ms;
+}
+.image-an-exit {
+  opacity: 1;
+}
+.image-an-exit-active {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 1000ms, transform 9000ms;
+}
+/* END INDEX2 */
