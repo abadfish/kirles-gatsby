@@ -115,6 +115,14 @@ body {
     transform: none !important;
     -webkit-transform: none !important;
   }
+  .image-div {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .slide-container {
+    width: 100%;
+  }
 }
 
 
