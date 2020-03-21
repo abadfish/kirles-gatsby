@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import stars from '../assets/particle_video.mp4'
 import './index.css'
-import slideshow from './slideshow'
 
 const Captions = ["hello world"]
 
