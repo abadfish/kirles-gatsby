@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Zoom } from 'react-slideshow-image';
-import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
+import {Image, Transformation, CloudinaryContext} from 'cloudinary-react';
 import stars from '../assets/particle_video.mp4'
 import './index.css'
 
@@ -8,7 +8,7 @@ const Captions = ["hello world"]
 
 const zoomInProperties = {
   duration: 2000,
-  transitionDuration: 2000,
+  transitionDuration: 1500,
   infinite: true,
   indicators: false,
   scale: 1.4,

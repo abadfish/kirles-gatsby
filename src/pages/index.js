@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { Router } from "@reach/router"
+import React from 'react'
 import { Link } from 'gatsby'
 import stars from '../assets/particle_video.mp4'
 import './index.css'
