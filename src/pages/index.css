@@ -89,25 +89,6 @@ body {
   height: 300px;
 }
 
-.background-image-holder {
-  position: absolute;
-  width: 100%;
-  height: 100% !important;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background: #292929;
-  background-size: cover !important;
-  background-position: 50% 50% !important;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  opacity: 0;
-}
-.background-image-holder.fadeIn {
-  opacity: 1;
-}
-
 @media all and (max-width: 767px) {
   .image-div {
     width: 100%;
@@ -130,8 +111,11 @@ body {
     height: 100vh;
   }
   .main-container {
-    margin-top: 7rem;
     background-color: #000;
+
+  }
+  .happy {
+    margin-top: 7rem;
 
   }
 

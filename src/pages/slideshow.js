@@ -130,7 +130,7 @@ const slideshow = () => {
                     quality="auto"
                     style={{width: '100%', background: '#000'}}
                 >
-                  <Transformation height={each.height} width={each.width} crop={each.crop} effect={each.effect} radius="20" gravity="auto" />
+                  <Transformation height={each.height} width={each.width} crop={each.crop} effect={each.effect} gravity="auto" />
                 </Image>
               )
             }
